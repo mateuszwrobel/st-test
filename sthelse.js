@@ -1,0 +1,21 @@
+import { defineWorkspace } from 'vitest/config'
+
+export default defineWorkspace([
+  // If you want to keep running your existing tests in Node.js, uncomment the next line.
+  // 'vitest.config.js',
+  {
+    extends: 'vitest.config.js',
+    // test: {
+    //   browser: {
+    //     enabled: true,
+    //     provider: 'playwright',
+    //     // https://vitest.dev/guide/browser/playwright
+    //     configs: [
+    //     ],
+    //     instances: [
+    //       { browser: 'chromium' },
+    //     ],
+    //   },
+    // },
+  },
+])

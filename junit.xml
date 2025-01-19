@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="1" failures="0" errors="0" time="0.3115">
+    <testsuite name="vitest-example/HelloWorld.test.jsx" timestamp="2025-01-19T12:06:59.160Z" hostname="mateuszwrobel" tests="1" failures="0" errors="0" skipped="0" time="0.3115">
+        <testcase classname="vitest-example/HelloWorld.test.jsx" name="renders name" time="0.0131">
+        </testcase>
+    </testsuite>
+</testsuites>
